@@ -351,6 +351,17 @@ footer {
   font-size: 14px;
   color: #cacdd2;
 }
+@media all and (max-width: 670px) {
+  .form-subs .input-email {
+    flex-basis: 31%;
+    background: #afeca3;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 1s;
+  }
+}
 ::placeholder {
   text-align: center;
 }
@@ -461,14 +472,4 @@ footer {
     margin-bottom: 20px;
   }
 }
-@media all and (max-width: 670px) {
-  .form-subs .input-email {
-    flex-basis: 31%;
-    background: #afeca3;
-    border-radius: 20px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 1s;
-  }
-}
+
