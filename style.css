@@ -461,3 +461,8 @@ footer {
     margin-bottom: 20px;
   }
 }
+@media all and (max-width: 670px) {
+  .form-subs .input-email {
+    text-align: center;
+  }
+}
